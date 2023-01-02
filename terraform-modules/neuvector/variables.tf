@@ -21,7 +21,7 @@ variable "neuvector_helm_chart_version" {
 variable "neuvector_version" {
   type        = string
   description = "Version of neuvector to install (format: 0.0.0)"
-  default     = "5.0.2"
+  default     = "5.1.0"
 }
 
 variable "ingress_host" {
