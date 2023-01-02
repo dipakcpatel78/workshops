@@ -41,25 +41,25 @@ variable "resource_group_name" {
 variable "tag_resource_owner" {
   type        = string
   description = "Owner for the resource (as tag)"
-  default     = "you@email.com"
+  default     = "deepak.patel@suse.com"
 }
 
 variable "tag_group" {
   type        = string
   description = "Group (as tag)"
-  default     = "My Group"
+  default     = "GSO"
 }
 
 variable "tag_department" {
   type        = string
   description = "Department (as tag)"
-  default     = "My Department"
+  default     = "PreSales"
 }
 
 variable "tag_stakeholder" {
   type        = string
   description = "Stakeholder (as tag)"
-  default     = "Manager Name"
+  default     = "Peter Lees"
 }
 
 variable "tag_environment" {
