@@ -87,7 +87,7 @@ variable "rancher_server_use_static_public_ip" {
 variable "rancher_server_vm_size" {
   type        = string
   description = "Instance type used for all linux virtual machines"
-  default     = "Standard_B2ms"
+  default     = "Standard_B4ms"
 }
 
 
